@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B2871618295D2CEA00424F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871617295D2CEA00424F4B /* AppDelegate.swift */; };
-		B287161A295D2CEA00424F4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871619295D2CEA00424F4B /* SceneDelegate.swift */; };
-		B287161C295D2CEA00424F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287161B295D2CEA00424F4B /* ViewController.swift */; };
-		B287161F295D2CEA00424F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B287161D295D2CEA00424F4B /* Main.storyboard */; };
-		B2871621295D2CEC00424F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2871620295D2CEC00424F4B /* Assets.xcassets */; };
-		B2871624295D2CEC00424F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2871622295D2CEC00424F4B /* LaunchScreen.storyboard */; };
+		B2871639295D2D3800424F4B /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287162C295D2D3600424F4B /* Avatar.swift */; };
+		B287163A295D2D3800424F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B287162D295D2D3600424F4B /* Main.storyboard */; };
+		B287163B295D2D3800424F4B /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287162E295D2D3600424F4B /* Names.swift */; };
+		B287163D295D2D3800424F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2871630295D2D3700424F4B /* LaunchScreen.storyboard */; };
+		B287163E295D2D3800424F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2871631295D2D3700424F4B /* Assets.xcassets */; };
+		B287163F295D2D3800424F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871632295D2D3700424F4B /* ViewController.swift */; };
+		B2871640295D2D3800424F4B /* WinnerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871633295D2D3700424F4B /* WinnerScreen.swift */; };
+		B2871641295D2D3800424F4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871634295D2D3800424F4B /* SceneDelegate.swift */; };
+		B2871642295D2D3800424F4B /* NumPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871635295D2D3800424F4B /* NumPlayers.swift */; };
+		B2871643295D2D3800424F4B /* ScoreInputCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871636295D2D3800424F4B /* ScoreInputCon.swift */; };
+		B2871644295D2D3800424F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871637295D2D3800424F4B /* AppDelegate.swift */; };
+		B2871645295D2D3800424F4B /* ScoreKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2871638295D2D3800424F4B /* ScoreKeeper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2871614295D2CEA00424F4B /* Scrabble9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrabble9.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2871617295D2CEA00424F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2871619295D2CEA00424F4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B287161B295D2CEA00424F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B287161E295D2CEA00424F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2871620295D2CEC00424F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2871623295D2CEC00424F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B2871625295D2CEC00424F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B287162B295D2D3500424F4B /* Scrabble9-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scrabble9-Bridging-Header.h"; sourceTree = "<group>"; };
+		B287162C295D2D3600424F4B /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		B287162D295D2D3600424F4B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B287162E295D2D3600424F4B /* Names.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		B287162F295D2D3600424F4B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2871630295D2D3700424F4B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2871631295D2D3700424F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2871632295D2D3700424F4B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2871633295D2D3700424F4B /* WinnerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnerScreen.swift; sourceTree = "<group>"; };
+		B2871634295D2D3800424F4B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2871635295D2D3800424F4B /* NumPlayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumPlayers.swift; sourceTree = "<group>"; };
+		B2871636295D2D3800424F4B /* ScoreInputCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreInputCon.swift; sourceTree = "<group>"; };
+		B2871637295D2D3800424F4B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2871638295D2D3800424F4B /* ScoreKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +69,20 @@
 		B2871616295D2CEA00424F4B /* Scrabble9 */ = {
 			isa = PBXGroup;
 			children = (
-				B2871617295D2CEA00424F4B /* AppDelegate.swift */,
-				B2871619295D2CEA00424F4B /* SceneDelegate.swift */,
-				B287161B295D2CEA00424F4B /* ViewController.swift */,
-				B287161D295D2CEA00424F4B /* Main.storyboard */,
-				B2871620295D2CEC00424F4B /* Assets.xcassets */,
-				B2871622295D2CEC00424F4B /* LaunchScreen.storyboard */,
-				B2871625295D2CEC00424F4B /* Info.plist */,
+				B2871637295D2D3800424F4B /* AppDelegate.swift */,
+				B2871631295D2D3700424F4B /* Assets.xcassets */,
+				B287162C295D2D3600424F4B /* Avatar.swift */,
+				B287162F295D2D3600424F4B /* Info.plist */,
+				B2871630295D2D3700424F4B /* LaunchScreen.storyboard */,
+				B287162D295D2D3600424F4B /* Main.storyboard */,
+				B287162E295D2D3600424F4B /* Names.swift */,
+				B2871635295D2D3800424F4B /* NumPlayers.swift */,
+				B2871634295D2D3800424F4B /* SceneDelegate.swift */,
+				B2871636295D2D3800424F4B /* ScoreInputCon.swift */,
+				B2871638295D2D3800424F4B /* ScoreKeeper.swift */,
+				B2871632295D2D3700424F4B /* ViewController.swift */,
+				B2871633295D2D3700424F4B /* WinnerScreen.swift */,
+				B287162B295D2D3500424F4B /* Scrabble9-Bridging-Header.h */,
 			);
 			path = Scrabble9;
 			sourceTree = "<group>";
@@ -99,6 +119,7 @@
 				TargetAttributes = {
 					B2871613295D2CEA00424F4B = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -125,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2871624295D2CEC00424F4B /* LaunchScreen.storyboard in Resources */,
-				B2871621295D2CEC00424F4B /* Assets.xcassets in Resources */,
-				B287161F295D2CEA00424F4B /* Main.storyboard in Resources */,
+				B287163D295D2D3800424F4B /* LaunchScreen.storyboard in Resources */,
+				B287163E295D2D3800424F4B /* Assets.xcassets in Resources */,
+				B287163A295D2D3800424F4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +159,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B287161C295D2CEA00424F4B /* ViewController.swift in Sources */,
-				B2871618295D2CEA00424F4B /* AppDelegate.swift in Sources */,
-				B287161A295D2CEA00424F4B /* SceneDelegate.swift in Sources */,
+				B2871644295D2D3800424F4B /* AppDelegate.swift in Sources */,
+				B2871641295D2D3800424F4B /* SceneDelegate.swift in Sources */,
+				B2871640295D2D3800424F4B /* WinnerScreen.swift in Sources */,
+				B2871645295D2D3800424F4B /* ScoreKeeper.swift in Sources */,
+				B287163F295D2D3800424F4B /* ViewController.swift in Sources */,
+				B2871642295D2D3800424F4B /* NumPlayers.swift in Sources */,
+				B2871643295D2D3800424F4B /* ScoreInputCon.swift in Sources */,
+				B287163B295D2D3800424F4B /* Names.swift in Sources */,
+				B2871639295D2D3800424F4B /* Avatar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B287161D295D2CEA00424F4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B287161E295D2CEA00424F4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2871622295D2CEC00424F4B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2871623295D2CEC00424F4B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B2871626295D2CEC00424F4B /* Debug */ = {
@@ -285,13 +293,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96735GGF6A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Scrabble9/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,10 +308,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = meow.Scrabble9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Scrabble9/Scrabble9-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,13 +324,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96735GGF6A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Scrabble9/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -327,10 +339,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = meow.Scrabble9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Scrabble9/Scrabble9-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

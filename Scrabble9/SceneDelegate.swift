@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Scrabble9
+//  Scrabble6
 //
-//  Created by Kiran Mahn on 29/12/2022.
+//  Created by Kiran Mahn on 21/12/2022.
 //
 
 import UIKit
